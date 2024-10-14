@@ -1,0 +1,49 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 23.38px;
+}
+
+.banner__title {
+    padding-top: 101px;
+    padding-bottom: 32px;
+    font-family: 'Galien';
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.banner__text {
+    padding-bottom: 71px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 60%;
+}
+
+.banner__button {
+    width: 220px;
+    height: 56px;
+    border-radius: 10px;
+    background: rgba(90, 152, 208, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    box-shadow: 5px 10px 20px 0px rgba(53, 110, 173, 0.2);
+}
+
+.banner__button:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.banner__illustration {
+    padding-top: 11.76px;
+    width: 687.25px;
+    height: 612.56px;
+}
