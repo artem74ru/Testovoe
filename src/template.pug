@@ -98,13 +98,13 @@ html(lang= 'ru')
           |enim ad minim veniam.
       div.clients-bot
         div.clients__logos
-          img(src="", alt="LOGO CLIENT 1")
-          img(src="", alt="LOGO CLIENT 2")
-          img(src="", alt="LOGO CLIENT 3")
-          img(src="", alt="LOGO CLIENT 4")
-          img(src="", alt="LOGO CLIENT 5")
-          img(src="", alt="LOGO CLIENT 6")
-          img(src="", alt="LOGO CLIENT 7")
+          img(src=require('./images/logo_client_exmp.png'))
+          img(src=require('./images/logo_client_exmp.png'))
+          img(src=require('./images/logo_client_exmp.png'))
+          img(src=require('./images/logo_client_exmp.png'))
+          img(src=require('./images/logo_client_exmp.png'))
+          img(src=require('./images/logo_client_exmp.png'))
+          img(src=require('./images/logo_client_exmp.png'))
           button.clients__button More Client
       footer.footer
         div.footer-top
@@ -149,3 +149,14 @@ html(lang= 'ru')
                     li LinkedIn
                     li Youtube
         span.footer-copyright 2019 © Afrianska. All rights reserved.
+
+div.modal-disable 
+  h2.modal__title SEND US MESSAGE
+  form.modal-form
+    label.modal-form__label-name Your Name
+    input.modal-form__input-name(placeholder='Full Name') 
+    label.modal-form__label-email Email
+    input.modal-form__input-email(placeholder='Your Email') 
+    label.modal-form__label-message Message
+    input.modal-form__input-message(placeholder='Your Message') 
+    button.modal-form__input-button SUBMIT

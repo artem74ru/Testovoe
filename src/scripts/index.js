@@ -1,1 +1,2 @@
-import './button/button.js';
+import './modal/modal.js';
+import './modal/validation.js';

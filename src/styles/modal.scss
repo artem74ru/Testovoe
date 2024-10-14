@@ -1,0 +1,133 @@
+.modal-disable {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    width: 540px;
+    height: 800px;
+    border-radius: 10px;
+    border: 1px;
+    box-shadow: 5px 10px 50px 0px #1070B133;
+    padding: 56px;
+    background-color: #FFF;
+}
+
+.modal-active {
+    display: block;
+    overscroll-behavior: contain;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__title {
+    font-family: "Gilroy";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-bottom: 48px;
+}
+
+.modal-form__label-name {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 80%;
+    padding-bottom: 8px;
+}
+
+.modal-form__input-name {
+    width: 428px;
+    height: 72px;
+    border-radius: 10px;
+    border: 1px solid #356EAD;
+    margin-bottom: 32px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    padding-left: 42.33px;
+}
+
+.modal-form__input-name::placeholder {
+    color: #1F3F68;
+    opacity: 20%;
+}
+
+.modal-form__label-email {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 80%;
+    padding-bottom: 8px;
+}
+
+.modal-form__input-email {
+    width: 428px;
+    height: 72px;
+    border-radius: 10px;
+    border: 1px solid #356EAD;
+    margin-bottom: 32px;
+    font-family: 'Gilroy';
+    color: #1F3F68;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    padding-left: 42.33px;
+}
+
+.modal-form__input-email::placeholder {
+    color: #1F3F68;
+    opacity: 20%;
+}
+
+.modal-form__label-message {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 80%;
+    padding-bottom: 8px;
+}
+
+.modal-form__input-message {
+    width: 428px;
+    height: 144px;
+    border-radius: 10px;
+    border: 1px solid #356EAD;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-left: 42.33px;
+    padding-bottom: 93px;
+}
+
+.modal-form__input-message::placeholder {
+    color: #1F3F68;
+    opacity: 20%;
+}
+
+.modal-form__input-button {
+    margin-top: 72px;
+    width: 428px;
+    height: 72px;
+    border-radius: 10px;
+    background-color: #5A98D0;
+    box-shadow: 5px 20px 50px 0px #1070B133;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
