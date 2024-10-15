@@ -1,1 +1,6 @@
 node_modules
+/.idea/.gitignore
+/.idea/forDaniel.iml
+/.idea/modules.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml

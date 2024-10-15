@@ -86,3 +86,10 @@
 .card__link:hover {
     cursor: pointer;
 }
+
+
+@media (min-width: 576px) {
+    .main-content {
+        flex-direction: column;
+    }
+}

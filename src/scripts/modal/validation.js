@@ -34,7 +34,7 @@ form.addEventListener("submit", (evt) => {
 });
 
 function isValidLogin(username) {
-  const pattern = /^[a-zA-Z0-9]+$/;
+  const pattern = /^[a-zA-Z]+$/;
   return pattern.test(username);
 }
 
