@@ -3,27 +3,23 @@
   symbols: 'A.' 'T.' 'E '  ;
   suffix: " ";
 }
-
 .footer {
     position: absolute;
     z-index: 1;
-    width: 1825px;
+    width: calc(100% - 96px);
     background-color: #316099;
     border-top-right-radius: 200px;
     padding-bottom: 64px;
 }
-
 .footer-top {
     display: flex;
     justify-content: space-between;
     padding-left: 213px;
     padding-right: 197px;
 }
-
 .footer-top__wrapper {
     padding-top: 91px;
 }
-
 .footer-top__title  {
     padding-bottom: 32px;
     font-family: "Gilroy";
@@ -32,7 +28,6 @@
     letter-spacing: 0.05em;
     color: #FFFFFF;
 }
-
 .footer-top__text  {
     padding-bottom: 96px;
     font-family: 'Gilroy';
@@ -42,7 +37,6 @@
     color: #FFFFFF;
     opacity: 60%;
 }
-
 .footer-top__button {
     width: 220px;
     height: 56px;
@@ -55,23 +49,19 @@
     line-height: 26px;
     letter-spacing: 0.04em;
 }
-
 .footer-top__button:hover {
     cursor: pointer;
     opacity: 80%;
 }
-
 .footer-bot {
     display: block;
 }
-
 .footer-info {
     display: flex;
     padding-left: 214px;
     padding-right: 320px;
     justify-content: space-between;
 }
-
 .footer-info__connect {
     list-style-type: circled-alpha;
     list-style-position: outside;
@@ -82,26 +72,21 @@
     color: #FFFFFF;
     padding-left: 25px;
 }
-
 .footer-info__connect li {
     padding-left: 16px;
     padding-bottom: 24px;
 }
-
 .footer-info__connect-wrapper {
     padding-top: 97px;
     padding-bottom: 33px;
 }
-
 .footer-info__logo-wrapper {
     display: flex;
     padding-bottom: 33px;
 }
-
 .footer-info__logo {
     padding-right: 15px;
 }
-
 .footer-info__name {
     font-family: "Gilroy";
     font-size: 28px;
@@ -109,8 +94,6 @@
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-
-
 .footer-info__about-list {
     font-family: "Gilroy";
     font-size: 16px;
@@ -119,11 +102,9 @@
     color: #FFFFFF;
     list-style: none;
 }
-
 .footer-info__about-list li {
     margin-bottom: 16px;
 }
-
 .footer-info__about-title {
     padding-top: 96px; 
     list-style: none;
@@ -134,7 +115,6 @@
     color: #FFFFFF;
     padding-bottom: 32px;
 }
-
 .footer-info__follow-list {
     font-family: "Gilroy";
     font-size: 16px;
@@ -146,7 +126,6 @@
 .footer-info__follow-list li {
     margin-bottom: 16px;
 }
-
 .footer-info__follow-title {
     padding-top: 96px; 
     list-style: none;
@@ -157,7 +136,6 @@
     color: #FFFFFF;
     padding-bottom: 32px;
 }
-
 .footer-copyright {
     padding-left: 213px;
     font-family: 'Gilroy';
@@ -167,53 +145,76 @@
     color: #FFFFFF;
     opacity: 40%;
 }
-
-@media (min-width: 360px) {
+@media (max-width: 1280px){
     .footer {
-        max-width: 360px;
+        margin-right: 96px; 
     }
-}
-
-@media (min-width: 576px) {
-   .footer-top {
-    padding-left: 40px;
-    padding-right: 40px;
-   }
-
-   .footer {
-    margin-top: 197px;
-   }
-}
-
-@media (min-width: 360px) {
-    .footer {
-        max-width: 360px;
-    }
-}
-
-
-@media (min-width: 768px) {
-    .footer {
-        max-width: 672px;
+    .footer-top {
+        margin-left: 70px;
     }
     .footer-info {
-        padding-left: 30px;
-        padding-right: 30px;
+        margin-left: 70px;
+        padding-right: 100px;
+    }
+    .footer-copyright {
+        margin-left: 70px;
+        padding-right: 100px;;
     }
 }
-
-@media (min-width: 992px) { 
+@media (max-width: 960px){
+    .footer-top {
+        margin-left: 50px;
+        padding-right: 50px;
+    }
+    .footer-info {
+        margin-left: 50px;
+        padding-right: 50px;
+    }
+    .footer-copyright {
+        margin-left: 50px;
+    }
+}
+@media (max-width: 640px){
     .footer {
-        max-width: 896px;
+        margin-right: 0;
+    }
+    .footer-top {
+       padding-left: 100px;
     }
     .footer-info {
         padding-left: 100px;
-        padding-right: 100px;
+    }
+    .footer-copyright {
+       padding-left: 100px;
     }
 }
-
-@media (min-width: 1200px) { 
-    .footer {
-        max-width: 1104px;
+@media (max-width: 450px){
+    .footer-top {
+       padding-left: 0;
     }
+    .footer {
+
+    }   
+     .footer-info {
+        flex-direction: column;
+        padding-left: 0;
+        margin-left: 1;
+    }   
+    .footer-info__about-title {
+        text-align: center;
+    }
+    .footer-info__about-list {
+        text-align: center;
+    }
+    .footer-info__follow-title {
+        text-align: center;
+    }
+    .footer-info__follow-list {
+        text-align: center;
+    }
+    .footer-copyright {
+        text-align: center;
+        padding: 0;
+    }
+
 }

@@ -5,3 +5,10 @@
    padding-left: 83px;
    padding-right: 83px;
 }
+@media (max-width: 360px){
+   .header {
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+}

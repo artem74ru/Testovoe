@@ -4,12 +4,13 @@
 	border: none;
 	max-width: 1920px;
 }
-
 html {
 	margin-left: auto;
 	margin-right: auto;
 }
-
+body:has(.modal-active) {
+    overflow-y: hidden;
+}
 *,
 *::before,
 *::after {

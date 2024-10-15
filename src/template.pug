@@ -2,13 +2,14 @@ doctype html
 html(lang= 'ru')
   head
     meta(charset='utf-8')
+    meta(name="viewport" content="width=device-width, initial-scale=1")
     title= 'Homepage'
   body
     header.header
         img.header-logo(src=require('./images/logo_header.svg'))
         img.header-menu(src=require('./images/icon_burger_menu_48px.svg'))
-    div.container
-      div.banner
+
+    div.banner
         div.banner-left
           h1.banner__title 
             | New Automation 
@@ -151,12 +152,14 @@ html(lang= 'ru')
         span.footer-copyright 2019 © Afrianska. All rights reserved.
 
 div.modal-disable 
-  h2.modal__title SEND US MESSAGE
+  div.modal-wrapper
+    h2.modal__title SEND US MESSAGE
+    img.modal-close__img(src=require('./images/close.svg'))
   form.modal-form
-    label.modal-form__label-name Your Name
-    input.modal-form__input-name(placeholder='Full Name') 
-    label.modal-form__label-email Email
-    input.modal-form__input-email(placeholder='Your Email') 
-    label.modal-form__label-message Message
-    input.modal-form__input-message(placeholder='Your Message') 
-    button.modal-form__input-button SUBMIT
+        label.modal-form__label-name Your Name
+        input.modal-form__input-name(placeholder='Full Name') 
+        label.modal-form__label-email Email
+        input.modal-form__input-email(placeholder='Your Email') 
+        label.modal-form__label-message Message
+        input.modal-form__input-message(placeholder='Your Message') 
+        button.modal-form__input-button SUBMIT

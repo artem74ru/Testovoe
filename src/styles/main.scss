@@ -6,23 +6,19 @@
     display: flex;
     justify-content: center;
 }
-
 .main-content {
     display: flex;
     gap: 100px;
 }
-
 .main-left {
     display: block;
 }
-
 .main-right {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 100px;
 }
-
 .content__title {
     font-family: 'Gilroy';
     font-size: 36px;
@@ -31,7 +27,6 @@
     color: rgba(49, 96, 153, 1);
     padding-bottom: 58px;
 }
-
 .content-card {
     display: flex;
     flex-direction: column;
@@ -43,11 +38,9 @@
     box-shadow: 5px 20px 50px 0px rgba(16, 112, 177, 0.2);
     background: rgba(255, 255, 255, 1);
 }
-
 .card__img {
     padding-top: 48px;
 }
-
 .card__title {
     padding-top: 56px;
     font-family: 'Gilroy';
@@ -56,7 +49,6 @@
     letter-spacing: 0.05em;
     color: rgba(31, 63, 104, 1);
 }
-
 .card__text  {
     padding-top: 16px;
     font-family: 'Gilroy';
@@ -66,7 +58,6 @@
     color: rgba(31, 63, 104, 1);
     opacity: 60%;
 }
-
 .card__link {
     display: flex;
     padding-right: 125px;
@@ -82,14 +73,31 @@
     letter-spacing: 0.05em;
     padding-bottom: 48px;
 }
-
 .card__link:hover {
     cursor: pointer;
 }
-
-
-@media (min-width: 576px) {
+@media (max-width: 1280px){ 
+    .main {
+        padding-left: 100px;
+        padding-right: 100px; 
+    }
+ }
+@media (max-width: 960px){
+    .main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 640px){
     .main-content {
-        flex-direction: column;
+    flex-direction: column;
+    }
+}
+@media (max-width: 450px){
+    .main {
+        text-align: center;
+    }
+    .content-card {
+        width: 345px;
     }
 }
