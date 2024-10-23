@@ -12,13 +12,14 @@
     padding: 56px;
     background-color: #FFF;
 }
-
 .modal-wrapper {
     display: flex;
     justify-content: space-between;
 }
 .modal-close__img {
-    margin-bottom: 55px;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 50px;
 }
 .modal-active {
     display: block;
@@ -125,4 +126,17 @@
     line-height: 26px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+}
+
+@media (max-width: 1280px){
+
+}
+@media (max-width: 1280px){
+    
+}
+@media (max-width: 1280px){
+    
+}
+@media (max-width: 1280px){
+    
 }

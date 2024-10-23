@@ -1,0 +1,24 @@
+.content__title {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: rgba(49, 96, 153, 1);
+    padding-bottom: 58px;
+}
+.content-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 525px;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px 0px rgba(16, 112, 177, 0.2);
+    background: rgba(255, 255, 255, 1);
+}
+@media (max-width: 450px){
+    .content-card {
+        width: 345px;
+    }
+}

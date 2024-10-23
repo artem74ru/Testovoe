@@ -1,10 +1,10 @@
 const button = document.querySelector("button.footer-top__button");
 const modal = document.querySelector("div.modal-disable");
 const close = document.querySelector("img.modal-close__img");
+const body  = document.querySelector("div.body");
 
 button.addEventListener("click", () => {
-    modal.classList.add("modal-active");
-    
+    modal.classList.add("modal-active"); 
 });
 
 window.addEventListener("click", function(event) {
@@ -12,5 +12,3 @@ window.addEventListener("click", function(event) {
     modal.classList.remove("modal-active");
   }
 });
-
-

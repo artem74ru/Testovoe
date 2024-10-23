@@ -1,8 +1,7 @@
 .banner {
     display: flex;
-    padding-right: 23.38px;
     padding-left: 213px;
-    background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    background: linear-gradient(0deg, rgba(152, 195, 232,0.2) 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 .banner__title {
     padding-top: 101px;
@@ -23,20 +22,7 @@
     opacity: 60%;
 }
 .banner__button {
-    width: 220px;
-    height: 56px;
-    border-radius: 10px;
-    background: rgba(90, 152, 208, 1);
-    color: rgba(255, 255, 255, 1);
-    font-family: 'Gilroy', sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.04em;
     box-shadow: 5px 10px 20px 0px rgba(53, 110, 173, 0.2);
-}
-.banner__button:hover {
-    cursor: pointer;
-    opacity: 80%;
 }
 .banner__illustration {
     padding-top: 11.76px;
